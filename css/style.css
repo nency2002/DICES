@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 250px;
+}
+button{
+    border:none;
+    outline: none;
+}
+#output{
+    text-align: center;
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    border: 4px solid black;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ad9c68;
+}
+p{
+  margin: auto;
+  margin-top: 30px;
+}
+button{
+    transition: all 0.5s ;
+}
+button:focus{
+    transform: rotate(360deg);
+}
+
+
